@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Uber And Careem</string>
+    <string name="get_a_car">Join us to get a car</string>
+    <string name="i_m_a_driver">I\'m a driver</string>
+    <string name="i_m_a_customer">I\'m a customer</string>
+    <string name="email">Email</string>
+    <string name="customer_login">Customer Login</string>
+    <string name="driver_login">Driver Login</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="do_not_have_account"><u>Don\'t have an account</u></string>
+    <string name="customer_register">Customer Register</string>
+    <string name="driver_register">Driver Register</string>
+    <string name="register">Register</string>
+    <string name="title_activity_driver_map">Map</string>
+    <string name="title_activity_customer_map">Map</string>
+    <string name="logout">Logout</string>
+    <string name="settings">Settings</string>
+    <string name="call_a_driver">Call a driver</string>
+    <string name="change_image"><u>Change Image</u></string>
+</resources>

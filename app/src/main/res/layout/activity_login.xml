@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimaryDark"
+        tools:context=".LoginActivity">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_margin="64dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/first_car"
+                    android:layout_width="90dp"
+                    android:layout_height="100dp"
+                    android:contentDescription="@null"
+                    android:src="@drawable/ic_car"
+                    android:tint="@android:color/white" />
+
+
+                <TextView
+                    android:letterSpacing="0.3"
+                    android:id="@+id/loading"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-black"
+                    android:gravity="center"
+                    android:text="@string/get_a_car"
+                    android:textAppearance="?android:textAppearanceLarge"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold|italic" />
+
+                <ImageView
+                    android:id="@+id/second_car"
+                    android:layout_width="90dp"
+                    android:layout_height="100dp"
+                    android:contentDescription="@null"
+                    android:src="@drawable/ic_car"
+                    android:tint="@android:color/white" />
+            </LinearLayout>
+
+            <Button
+                android:letterSpacing="0.5"
+                android:id="@+id/driver"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="32dp"
+                android:layout_marginTop="64dp"
+                android:layout_marginRight="32dp"
+                android:background="@color/colorPink"
+                android:text="@string/i_m_a_driver"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold" />
+
+            <Button
+                android:letterSpacing="0.3"
+                android:id="@+id/customer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="32dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="32dp"
+                android:background="@color/colorAccent"
+                android:text="@string/i_m_a_customer"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </RelativeLayout>
+</layout>

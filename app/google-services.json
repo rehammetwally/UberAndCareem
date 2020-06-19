@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "552756740770",
+    "firebase_url": "https://uberandcareem-a2bd2.firebaseio.com",
+    "project_id": "uberandcareem-a2bd2",
+    "storage_bucket": "uberandcareem-a2bd2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:552756740770:android:13afcf0bc9b668720acdfb",
+        "android_client_info": {
+          "package_name": "com.rehammetwally.uberandcareem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "552756740770-l4dvru2hp2r464qu4noner9mqerv79qp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rehammetwally.uberandcareem",
+            "certificate_hash": "1e9ba2938ea2488d7b26fb68ead48ff3e4a2b01e"
+          }
+        },
+        {
+          "client_id": "552756740770-96nfsv3mdfl8g9af455igjvlbh8uvtfh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-qDIeUZwIUsUKpXBKYwFTNUcNKbA3E74"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "552756740770-96nfsv3mdfl8g9af455igjvlbh8uvtfh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

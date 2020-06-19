@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimaryDark"
+        tools:context=".SplashActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_margin="32dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:contentDescription="@null"
+                android:id="@+id/first_car"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/ic_car"
+                android:tint="@android:color/white" />
+
+
+            <ImageView
+                android:id="@+id/loading"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:contentDescription="@null"
+                android:id="@+id/second_car"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/ic_car"
+                android:tint="@android:color/white" />
+        </LinearLayout>
+
+    </RelativeLayout>
+</layout>
